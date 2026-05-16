@@ -1,22 +1,37 @@
 # Welcome to Dagpedia 👋
 
-Dagpedia is an organization dedicated to the "living DAG" concept—continuously nurturing and evolving validated Directed Acyclic Graphs (DAGs) to fit various research contexts.  
-Through this approach, we foster mutual growth and collaboration within the research community.
 
-## 🌟 Our Philosophy
-- Share, update, and grow knowledge around DAG theory and applications collaboratively.
-- Use validated DAGs as shared foundations for research, implementation, and cross-disciplinary projects, accelerating community-driven progress.
+Directed acyclic graphs (DAGs) are how researchers encode causal assumptions before analysis. Most are drawn once, used once, and discarded.
+Reynolds (2026) argued in the *American Journal of Epidemiology* that DAGs should function as shared epistemic infrastructure — annotated with levels of evidence, revised as knowledge accumulates, and reused 
+across studies rather than rebuilt from scratch each time.
 
-## 📂 Notable Projects
-- We provide open-source tools, libraries, and knowledge bases related to DAGs and workflows.
-- Contributions and feedback are always welcome!
+This project, Dagpedia, is an attempt to build that infrastructure. It is an (currently) personal work dedicated to the "living DAG" concept—continuously nurturing and evolving validated Directed Acyclic Graphs (DAGs) to fit various research contexts.
+Through this approach, I aim to foster mutual growth and collaboration within the research community.
 
-## 🤝 Join the Community
-If you're interested in contributing to Dagpedia, explore our repositories and connect with us via Issues, Pull Requests, or Discussions.
+It is still early in development. But the scientific case for it is not personal — it is documented, peer-reviewed, and overdue.
 
-## 📣 Contact
+> Reynolds RJ. Living DAGs: the future of DAGs in 
+> epidemiology. *Am J Epidemiol*. 2026;195(5):1365–1367.  
+> https://doi.org/10.1093/aje/kwag029
+
+## How it works
+
+Each DAG in Dagpedia is:
+- **Versioned** — changes are tracked like code
+- **Evidence-graded** — every edge is annotated  
+  from *speculative* to *strong*
+- **Linked to literature** — supporting publications  
+  are cited per edge, not per DAG
+- **Forkable** — adapt any DAG to your research context
+
+## Get involved
+
+This only works if the community builds it together.
+Issues, PRs, and Discussions are welcome.
+
+## Contact
 - [GitHub Discussions](https://github.com/orgs/dagpedia/discussions)
-- [Contact Maintainers](mailto:contact@dagpedia.org)
+- [Contact Maintainers](mailto:jh1cid@gmail.com)
 
 ---
 
